@@ -13,8 +13,22 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    view.cpp \
+    ../affair.cpp \
+    control/view.cpp \
+    affair/affair.cpp \
+    analysis/analysis.cpp \
+    init/init.cpp \
+    attribute/attribute.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    view.h \
+    ../affair.h \
+    control/view.h \
+    affair/affair.h \
+    analysis/analysis.h \
+    init/init.h \
+    attribute/attribute.h
 
 FORMS    += mainwindow.ui
