@@ -14,21 +14,30 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    view.cpp \
-    ../affair.cpp \
-    control/view.cpp \
     affair/affair.cpp \
     analysis/analysis.cpp \
     init/init.cpp \
-    attribute/attribute.cpp
+    attribute/attribute.cpp \
+    control/view.cpp
 
 HEADERS  += mainwindow.h \
-    view.h \
-    ../affair.h \
-    control/view.h \
+    libxml2-2.7.8.win32/include/libxml/*.h \
     affair/affair.h \
     analysis/analysis.h \
     init/init.h \
-    attribute/attribute.h
+    attribute/attribute.h \
+    control/view.h
 
 FORMS    += mainwindow.ui
+
+
+INCLUDEPATH += $$PWD/../libxml2-2.7.8.win32/include
+DEPENDPATH += $$PWD/../libxml2-2.7.8.win32/include
+
+
+INCLUDEPATH += $$PWD/../libxml2-2.7.8.win32/include
+DEPENDPATH += $$PWD/../libxml2-2.7.8.win32/include
+
+
+INCLUDEPATH += $$PWD/../libxml2-2.7.8.win32/include
+DEPENDPATH += $$PWD/../libxml2-2.7.8.win32/include

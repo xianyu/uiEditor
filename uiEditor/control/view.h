@@ -10,16 +10,18 @@ class view : public QWidget
     Q_OBJECT
 public:
     explicit view(QWidget *parent = 0);
-    
 protected:
-    float mWidth ;//= 0;
-    float mHeight;// = 0;
-    float x ;//= 0;
-    float y;// = 0;
-    string relativeTo ;//= "";
-    string relativePoint;// = "";
-    string point ;//= "";
+    float mWidth;
+    float mHeight;
+    float mX;
+    float mY;
+    float mZ;
+    string mRelativeTo;
+    string mRelativePoint;
+    string mPoint;
+    bool mHide;
 signals:
+
     
 public slots:
     

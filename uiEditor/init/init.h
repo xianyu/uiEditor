@@ -2,7 +2,7 @@
 #define INIT_H
 
 #include <QObject>
-
+#include <libxml/parser.h>
 class init : public QObject
 {
     Q_OBJECT
