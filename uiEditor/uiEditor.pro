@@ -22,7 +22,7 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     libxml2-2.7.2/include/libxml/*.h \
-    affair/affair.h \
+   affair/affair.h \
     analysis/analysis.h \
     init/init.h \
     attribute/attribute.h \
@@ -31,13 +31,6 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui
 
 
-INCLUDEPATH += $$PWD/../libxml2-2.7.2/include
-DEPENDPATH += $$PWD/../libxml2-2.7.2/include
 
-
-INCLUDEPATH += $$PWD/../libxml2-2.7.2/include
-DEPENDPATH += $$PWD/../libxml2-2.7.2/include
-
-
-INCLUDEPATH += $$PWD/../libxml2-2.7.2/include
-DEPENDPATH += $$PWD/../libxml2-2.7.2/include
+INCLUDEPATH += $$PWD/libxml2-2.7.2/include
+DEPENDPATH += $$PWD/libxml2-2.7.2/include

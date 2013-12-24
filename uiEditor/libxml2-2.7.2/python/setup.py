@@ -8,7 +8,7 @@ from distutils.core import setup, Extension
 # Below ROOT, we expect to find include, include/libxml2, lib and bin.
 # On *nix, it is not needed (but should not harm), 
 # on Windows, it is set by configure.js.
-ROOT = r'/usr' 
+ROOT = r'/Users/gamebean/uiEditor/uiEditor/libxml2-2.7.2' 
 
 # Thread-enabled libxml2
 with_threads = 1
